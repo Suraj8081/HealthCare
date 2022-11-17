@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav"
+    app:startDestination="@id/loginDescFragment">
+
+    <fragment
+        android:id="@+id/loginDescFragment"
+        android:name="com.helthcare.fragment.login.LoginDescFragment"
+        android:label="fragment_login_desc"
+        tools:layout="@layout/fragment_login_desc" >
+        <action
+            android:id="@+id/action_loginDescFragment_to_mobileLoginFragment"
+            app:destination="@id/mobileLoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mobileLoginFragment"
+        android:name="com.helthcare.fragment.login.MobileLoginFragment"
+        android:label="fragment_mobile_login"
+        tools:layout="@layout/fragment_mobile_login" >
+        <action
+            android:id="@+id/action_mobileLoginFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.helthcare.fragment.login.OtpFragment"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp" >
+        <action
+            android:id="@+id/action_otpFragment_to_loginProfileFragment"
+            app:destination="@id/loginProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginProfileFragment"
+        android:name="com.helthcare.fragment.login.LoginProfileFragment"
+        android:label="fragment_login_profile"
+        tools:layout="@layout/fragment_login_profile" />
+</navigation>

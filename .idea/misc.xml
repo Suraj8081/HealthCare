@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/drawable/active_button.xml" value="0.138" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/drawable/active_inducators.xml" value="0.138" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/drawable/border_layout.xml" value="0.138" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/drawable/cursor_color.xml" value="0.138" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/drawable/disable_button.xml" value="0.138" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/drawable/disable_indicators.xml" value="0.138" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/layout/activity_login.xml" value="0.16770833333333332" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/layout/activity_splash.xml" value="0.16770833333333332" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/layout/fragment_login_desc.xml" value="0.16666666666666666" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/layout/fragment_login_profile.xml" value="0.16770833333333332" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/layout/fragment_mobile_login.xml" value="0.16770833333333332" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/layout/fragment_otp.xml" value="0.22" />
+        <entry key="..\:/WorkingDir/HelthCare/app/src/main/res/layout/login_desc_view.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
